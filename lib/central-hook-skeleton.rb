@@ -63,5 +63,4 @@ module CentralHookSkeleton
 end  # module CentralHookSkeleton
 
 CentralHookSkeleton.require_all_libs_relative_to(__FILE__)
-Central.register_hook(:version, CentralHookSkeleton)
 
