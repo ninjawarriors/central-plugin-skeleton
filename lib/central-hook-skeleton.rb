@@ -54,7 +54,14 @@ module CentralHookSkeleton
     Dir.glob(search_me).sort.each {|rb| require rb}
   end
 
+  # Helper function to allow Central to pull version information
+  #
+  def self.version
+    VERSION
+  end
+
 end  # module CentralHookSkeleton
 
 CentralHookSkeleton.require_all_libs_relative_to(__FILE__)
+Central.register_hook(:version, CentralHookSkeleton)
 
