@@ -1,5 +1,5 @@
 
-module CentralPluginSkeleton
+module CentralHookSkeleton
 
   # :stopdoc:
   LIBPATH = ::File.expand_path('..', __FILE__) + ::File::SEPARATOR
@@ -54,7 +54,7 @@ module CentralPluginSkeleton
     Dir.glob(search_me).sort.each {|rb| require rb}
   end
 
-end  # module CentralPluginSkeleton
+end  # module CentralHookSkeleton
 
-CentralPluginSkeleton.require_all_libs_relative_to(__FILE__)
+CentralHookSkeleton.require_all_libs_relative_to(__FILE__)
 

@@ -9,7 +9,7 @@ task :default => 'test:run'
 task 'gem:release' => 'test:run'
 
 Bones {
-  name     'central-plugin-skeleton'
+  name     'central-hook-skeleton'
   authors  'Ninja Warriors'
   email    'founders@ninjawarriors.io'
   url      'http://ninjawarriors.io'

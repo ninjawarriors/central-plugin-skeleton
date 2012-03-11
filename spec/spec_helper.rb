@@ -1,6 +1,6 @@
 
 require File.expand_path(
-    File.join(File.dirname(__FILE__), %w[.. lib central-plugin-skeleton]))
+    File.join(File.dirname(__FILE__), %w[.. lib central-hook-skeleton]))
 
 Spec::Runner.configure do |config|
   # == Mock Framework

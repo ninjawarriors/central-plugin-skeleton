@@ -1,7 +1,7 @@
-central-plugin-skeleton
+central-hook-skeleton
 ===========
 
-This is a hello world plugin for Central
+This is a hello world `hook:dashboard_notification` for Central
 
 Features
 --------
@@ -21,7 +21,17 @@ Requirements
 Install
 -------
 
-* `sudo gem install central-plugin-skeleton`
+From rubygems (not done yet):
+
+```
+sudo gem install central-hook-skeleton
+```
+
+From local source:
+
+```
+rake gem:install
+```
 
 Author
 ------
